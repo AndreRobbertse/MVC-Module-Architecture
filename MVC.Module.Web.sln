@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module Infrastructure", "Module Infrastructure", "{6B3271F0-3C2F-4D1B-B4CE-41295BECEFEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Module.Interface", "MVC.Module.Interface\MVC.Module.Interface.csproj", "{7DDB670D-5F8C-4F2C-9F45-26BB11C9ECC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Module.Core", "MVC.Module.Core\MVC.Module.Core.csproj", "{0A613006-812A-44BD-A085-F019D7EDEFBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binaries", "Binaries", "{4DC3E042-1D9D-4C30-84E8-5A747CE95EBA}"
+	ProjectSection(SolutionItems) = preProject
+		Binaries\BoC.Web.Mvc.PrecompiledViews.dll = Binaries\BoC.Web.Mvc.PrecompiledViews.dll
+		Binaries\Commons.Web.Mvc.PrecompiledViews.dll = Binaries\Commons.Web.Mvc.PrecompiledViews.dll
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C18FDD49-8054-4A0E-9DB2-04B8DB5E3A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Module.Test", "MVC.Module.Test\MVC.Module.Test.csproj", "{66349DBB-A6A6-4622-B411-0AD627569CA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebHost", "WebHost", "{45E5B389-EE6A-4BF9-AA89-D577C4E63045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Module.Web", "MVC.Module.Web\MVC.Module.Web.csproj", "{E2BE1D98-40F2-4125-A96D-FF71A9C3A524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DDB670D-5F8C-4F2C-9F45-26BB11C9ECC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDB670D-5F8C-4F2C-9F45-26BB11C9ECC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDB670D-5F8C-4F2C-9F45-26BB11C9ECC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDB670D-5F8C-4F2C-9F45-26BB11C9ECC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A613006-812A-44BD-A085-F019D7EDEFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A613006-812A-44BD-A085-F019D7EDEFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A613006-812A-44BD-A085-F019D7EDEFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A613006-812A-44BD-A085-F019D7EDEFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66349DBB-A6A6-4622-B411-0AD627569CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BE1D98-40F2-4125-A96D-FF71A9C3A524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BE1D98-40F2-4125-A96D-FF71A9C3A524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BE1D98-40F2-4125-A96D-FF71A9C3A524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BE1D98-40F2-4125-A96D-FF71A9C3A524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DDB670D-5F8C-4F2C-9F45-26BB11C9ECC5} = {6B3271F0-3C2F-4D1B-B4CE-41295BECEFEF}
+		{0A613006-812A-44BD-A085-F019D7EDEFBA} = {6B3271F0-3C2F-4D1B-B4CE-41295BECEFEF}
+		{66349DBB-A6A6-4622-B411-0AD627569CA2} = {C18FDD49-8054-4A0E-9DB2-04B8DB5E3A74}
+		{E2BE1D98-40F2-4125-A96D-FF71A9C3A524} = {45E5B389-EE6A-4BF9-AA89-D577C4E63045}
+	EndGlobalSection
+EndGlobal

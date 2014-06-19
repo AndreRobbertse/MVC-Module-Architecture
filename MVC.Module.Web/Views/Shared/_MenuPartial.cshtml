@@ -1,0 +1,19 @@
+﻿@using MVC.Module.Interface
+@using MVC.Module.Core
+
+@{
+    List<IModule> modules = PluginManager.Current.GetModules();
+    Func<string, IModule> getModule = name => PluginManager.Current.GetModule(name);
+}
+
+@{
+    foreach (IModule m in modules)
+    {
+        var pluginModule = getModule(m.Name);
+
+        if (pluginModule != null)
+        {
+            <li>@Html.ActionLink(pluginModule.Title, "Index", pluginModule.EntryControllerName)</li>
+        }
+    }
+}
