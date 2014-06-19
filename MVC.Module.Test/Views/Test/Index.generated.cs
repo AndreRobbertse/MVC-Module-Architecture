@@ -36,7 +36,8 @@ namespace MVC.Module.Test.Views.Test
         }
         public override void Execute()
         {
-WriteLiteral("\r\n<h3>Test Module</h3>\r\n<p>\r\n    Some Text\r\n</p>\r\n<h5>Another Line 123</h5>");
+WriteLiteral("\r\n<h3>Test Module</h3>\r\n<p>\r\n    Some Text\r\n</p>\r\n<h5>Another Line 123</h5>\r\n\r\nAn" +
+"other Change");
 
 
         }
