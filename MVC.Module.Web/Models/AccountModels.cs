@@ -11,6 +11,7 @@ namespace MVC.Module.Web.Models
 {
     /// <summary>
     /// Some Comments
+    /// ABC
     /// </summary>
     public class UsersContext : DbContext
     {
