@@ -9,6 +9,9 @@ using System.Web.Security;
 
 namespace MVC.Module.Web.Models
 {
+    /// <summary>
+    /// Some Comments
+    /// </summary>
     public class UsersContext : DbContext
     {
         public UsersContext()
